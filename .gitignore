@@ -1,0 +1,6 @@
+env
+.DS_Store
+__pycache__
+trial_run.ipynb
+references.json
+captions*.json
