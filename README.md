@@ -1,9 +1,7 @@
 # Automatic Commit Message Generation
 
 ## Overview
-This repository contains the code and resources for evaluating generated automated commit messages using state-of-the-art Large Language Models (LLMs), such as GPT-4o, Llama 3.1 (70B and 8B), and Mistral Large. The project addresses a significant challenges in automated commit message generation:
-
-**Can we use LLM as Evaluator:** Existing evaluation approaches, such as automatic metrics like BLEU, ROUGE and METEOR or manual human assessments, have notable limitations.
+Evaluating the quality of commit messages is a challenging task in software engineering. Existing evaluation approaches, such as automatic metrics like BLEU, ROUGE and METEOR or manual human assessments, have notable limitations. Automatic metrics often overlook semantic relevance and context, while human evaluations are time consuming and costly. To address these challenges, we explore the potential of using Large Language Models (LLMs) as an alternative method for commit message evaluation. We conducted two tasks using state-of-the-art LLMs, GPT-4o, LLaMA 3.1 (70B and 8B), and Mistral Large, to assess their capability in evaluating commit messages. Our findings show that LLMs can effectively identify relevant commit messages and align well with human judgment, demonstrating their potential to serve as reliable automated evaluators. This study provides a new perspective on utilizing LLMs for commit message assessment, paving the way for scalable and consistent evaluation methodologies in software engineering.
 
 ## Prerequisites
 Before you begin, ensure you have met the following requirements:
